@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "myrealtimepro"
+    bucket = "prasad-ci-project"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "myfirstproject"
+    dynamodb_table = "projectterraformstatelock"
   }
 }
